@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-//冒泡排序
+//冒泡排序，从左到右，两两比较，若符合条件，就交换值，一次遍历之后，最大或者最小值就到了最右侧，然后再遍历剩余的数。
 void bubble_sort(int a[],int n){  //n是数组的长度
     int i,j,temp;
     for (j = 0; j < n-1; j++) {

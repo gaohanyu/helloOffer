@@ -101,7 +101,7 @@ void indOrderTraversal (bintree t) {
     Stack treeNodeStack;  // 创建一个栈来存储节点
     BinNode node = t;  //记录根节点
     //开始循环
-    while (node || treeNodeStack.isEmpty()) {
+    while (node || !treeNodeStack.isEmpty()) {
         while (node) {
             treeNodeStack.push(node);
             node = node->leftChild;
@@ -116,5 +116,40 @@ void indOrderTraversal (bintree t) {
 }
 
 /*非递归后续遍历
+  后续遍历比较麻烦，因为在决定是否可以打印当前节点的时候，需要考虑是否左右子树都已经遍历完成了。
+  设置一个lastVisit的游标
+    若lastVisit等于当前节点的右子树，则表示左右都已经遍历完成了，再打印当前节点，并把lastVisit设置成当前节点，把node设置成空。
+    否则遍历右子树，node = node.right;
  */
 
+void postOOderTraversal (bintree t) {
+    if (!t) {
+        cout << "empty tree !" << endl;
+        return;
+    }
+    Stack treeNodeStack;  // 创建一个栈来存储节点
+    BinNode node = t;  //记录根节点
+    BinNode lastVisit = t; //游标
+    //开始循环
+    while (node || !treeNodeStack.isEmpty()) {
+        while (node) {
+            treeNodeStack.push(node);
+            node = node.left;
+        }
+        //左子树到头了，查看当前栈顶的元素
+        node = treeNodeStack.top();
+        //如果右子树也是空或者已经被访问了，就可以直接输出当前节点
+        if (!node.right || node == lastVisit) {
+            cout << node->data << endl;
+            treeNodeStack.pop();
+            lastVisit = node;
+            node = NULL;
+        }else {
+            //否则，继续遍历右子树
+            node = node.right;
+        }
+    }
+}
+
+/*层次遍历
+  每一层从左到右打印，把元素存储在一个队列中*/
