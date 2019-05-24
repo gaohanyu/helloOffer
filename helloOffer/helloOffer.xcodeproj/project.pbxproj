@@ -1,0 +1,116 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		023D6DEC229783C400F08684 /* basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = basics.cpp; sourceTree = "<group>"; };
+		023D6DEE229783C400F08684 /* 链栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链栈.cpp"; sourceTree = "<group>"; };
+		023D6DEF229783C400F08684 /* 静态链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "静态链表.cpp"; sourceTree = "<group>"; };
+		023D6DF0229783C400F08684 /* 顺序存储结构的线性表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序存储结构的线性表.cpp"; sourceTree = "<group>"; };
+		023D6DF1229783C400F08684 /* 链队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链队列.cpp"; sourceTree = "<group>"; };
+		023D6DF2229783C400F08684 /* 树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "树.cpp"; sourceTree = "<group>"; };
+		023D6DF3229783C400F08684 /* 两栈共享空间.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "两栈共享空间.cpp"; sourceTree = "<group>"; };
+		023D6DF4229783C400F08684 /* 顺序存储的栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序存储的栈.cpp"; sourceTree = "<group>"; };
+		023D6DF5229783C400F08684 /* 串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "串.cpp"; sourceTree = "<group>"; };
+		023D6DF6229783C400F08684 /* 循环队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "循环队列.cpp"; sourceTree = "<group>"; };
+		023D6DF7229783C400F08684 /* 单链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		023D6DE32297838900F08684 = {
+			isa = PBXGroup;
+			children = (
+				023D6DED229783C400F08684 /* dataStructure */,
+				023D6DEB229783C400F08684 /* algorithm */,
+				023D6DEA229783C400F08684 /* interviewExeperience */,
+			);
+			sourceTree = "<group>";
+		};
+		023D6DEA229783C400F08684 /* interviewExeperience */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interviewExeperience;
+			sourceTree = "<group>";
+		};
+		023D6DEB229783C400F08684 /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				023D6DEC229783C400F08684 /* basics.cpp */,
+			);
+			path = algorithm;
+			sourceTree = "<group>";
+		};
+		023D6DED229783C400F08684 /* dataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				023D6DEE229783C400F08684 /* 链栈.cpp */,
+				023D6DEF229783C400F08684 /* 静态链表.cpp */,
+				023D6DF0229783C400F08684 /* 顺序存储结构的线性表.cpp */,
+				023D6DF1229783C400F08684 /* 链队列.cpp */,
+				023D6DF2229783C400F08684 /* 树.cpp */,
+				023D6DF3229783C400F08684 /* 两栈共享空间.cpp */,
+				023D6DF4229783C400F08684 /* 顺序存储的栈.cpp */,
+				023D6DF5229783C400F08684 /* 串.cpp */,
+				023D6DF6229783C400F08684 /* 循环队列.cpp */,
+				023D6DF7229783C400F08684 /* 单链表.cpp */,
+			);
+			path = dataStructure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		023D6DE42297838900F08684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 023D6DE72297838900F08684 /* Build configuration list for PBXProject "helloOffer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 023D6DE32297838900F08684;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		023D6DE82297838900F08684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		023D6DE92297838900F08684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023D6DE72297838900F08684 /* Build configuration list for PBXProject "helloOffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023D6DE82297838900F08684 /* Debug */,
+				023D6DE92297838900F08684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 023D6DE42297838900F08684 /* Project object */;
+}
