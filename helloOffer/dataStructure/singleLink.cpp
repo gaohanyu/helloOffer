@@ -122,7 +122,7 @@ void CreateListTail(LinkList* L,int n){
 Status ClearList(LinkList*L){
     LinkList p,q;
     p = (*L)->next; //p指向第一个结点
-    if (p) {  //没到表尾
+    while (p) {  //没到表尾
         q = p->next;
         free(p);
         p=q;

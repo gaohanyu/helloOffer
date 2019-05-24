@@ -76,6 +76,6 @@ int Index_KMP(string S,string T,int pos){
     return 0;
 }
 
-
+/*KMP后续还有好多优化的方案，感兴趣的自己搜索吧。。。我搞不动了*/
 
 

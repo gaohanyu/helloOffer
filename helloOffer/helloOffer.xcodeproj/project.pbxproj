@@ -23,6 +23,8 @@
 		023D6DFC229789FD00F08684 /* arrayAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrayAlgorithm.cpp; sourceTree = "<group>"; };
 		023D6DFD22978A1400F08684 /* treeAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = treeAlgorithm.cpp; sourceTree = "<group>"; };
 		023D6DFE22978A2700F08684 /* stringAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stringAlgorithm.cpp; sourceTree = "<group>"; };
+		023D6DFF22978AEA00F08684 /* myInterviewNotes */ = {isa = PBXFileReference; lastKnownFileType = text; path = myInterviewNotes; sourceTree = "<group>"; };
+		023D6E0C22979A1100F08684 /* binaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binaryTree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				023D6DF82297866400F08684 /* ThomsonReuters */,
+				023D6DFF22978AEA00F08684 /* myInterviewNotes */,
 			);
 			path = interviewExeperience;
 			sourceTree = "<group>";
@@ -67,6 +70,7 @@
 				023D6DEE229783C400F08684 /* linkStack.cpp */,
 				023D6DF3229783C400F08684 /* stackSpaceSharing.cpp */,
 				023D6DF2229783C400F08684 /* tree.cpp */,
+				023D6E0C22979A1100F08684 /* binaryTree.cpp */,
 				023D6DF5229783C400F08684 /* string.cpp */,
 			);
 			path = dataStructure;

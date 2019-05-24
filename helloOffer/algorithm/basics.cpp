@@ -16,14 +16,6 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, Offer!\n";
     
-    float a = 1.1;
-    double b = 1.1;
-    if (a == b) {
-        cout << "YES\n";
-    }else{
-        cout << "NO\n";
-    }
-    
     return 0;
 }
 
