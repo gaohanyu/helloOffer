@@ -18,6 +18,7 @@
 		023D6DF5229783C400F08684 /* 串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "串.cpp"; sourceTree = "<group>"; };
 		023D6DF6229783C400F08684 /* 循环队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "循环队列.cpp"; sourceTree = "<group>"; };
 		023D6DF7229783C400F08684 /* 单链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表.cpp"; sourceTree = "<group>"; };
+		023D6DF82297866400F08684 /* ThomsonReuters */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThomsonReuters; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -33,6 +34,7 @@
 		023D6DEA229783C400F08684 /* interviewExeperience */ = {
 			isa = PBXGroup;
 			children = (
+				023D6DF82297866400F08684 /* ThomsonReuters */,
 			);
 			path = interviewExeperience;
 			sourceTree = "<group>";
