@@ -1,5 +1,5 @@
 //
-//  顺序存储结构的线性表.cpp
+//  list.cpp
 //  helloworld
 //
 //  Created by 高翰宇 on 16/10/9.

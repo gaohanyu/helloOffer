@@ -1,10 +1,13 @@
 //
-//  循环队列.cpp
+//  loopQueue.cpp
 //  helloworld
 //
 //  Created by 高翰宇 on 16/10/12.
 //  Copyright © 2016年 高翰宇. All rights reserved.
 //
+
+/*循环队列*/
+
 
 #include <stdio.h>
 #define OK 1

@@ -8,17 +8,21 @@
 
 /* Begin PBXFileReference section */
 		023D6DEC229783C400F08684 /* basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = basics.cpp; sourceTree = "<group>"; };
-		023D6DEE229783C400F08684 /* 链栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链栈.cpp"; sourceTree = "<group>"; };
-		023D6DEF229783C400F08684 /* 静态链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "静态链表.cpp"; sourceTree = "<group>"; };
-		023D6DF0229783C400F08684 /* 顺序存储结构的线性表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序存储结构的线性表.cpp"; sourceTree = "<group>"; };
-		023D6DF1229783C400F08684 /* 链队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "链队列.cpp"; sourceTree = "<group>"; };
-		023D6DF2229783C400F08684 /* 树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "树.cpp"; sourceTree = "<group>"; };
-		023D6DF3229783C400F08684 /* 两栈共享空间.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "两栈共享空间.cpp"; sourceTree = "<group>"; };
-		023D6DF4229783C400F08684 /* 顺序存储的栈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "顺序存储的栈.cpp"; sourceTree = "<group>"; };
-		023D6DF5229783C400F08684 /* 串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "串.cpp"; sourceTree = "<group>"; };
-		023D6DF6229783C400F08684 /* 循环队列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "循环队列.cpp"; sourceTree = "<group>"; };
-		023D6DF7229783C400F08684 /* 单链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "单链表.cpp"; sourceTree = "<group>"; };
+		023D6DEE229783C400F08684 /* linkStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linkStack.cpp; sourceTree = "<group>"; };
+		023D6DEF229783C400F08684 /* staticLink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticLink.cpp; sourceTree = "<group>"; };
+		023D6DF0229783C400F08684 /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		023D6DF1229783C400F08684 /* queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
+		023D6DF2229783C400F08684 /* tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
+		023D6DF3229783C400F08684 /* stackSpaceSharing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stackSpaceSharing.cpp; sourceTree = "<group>"; };
+		023D6DF4229783C400F08684 /* stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
+		023D6DF5229783C400F08684 /* string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
+		023D6DF6229783C400F08684 /* loopQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = loopQueue.cpp; sourceTree = "<group>"; };
+		023D6DF7229783C400F08684 /* singleLink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = singleLink.cpp; sourceTree = "<group>"; };
 		023D6DF82297866400F08684 /* ThomsonReuters */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThomsonReuters; sourceTree = "<group>"; };
+		023D6DFB229789EC00F08684 /* linkAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linkAlgorithm.cpp; sourceTree = "<group>"; };
+		023D6DFC229789FD00F08684 /* arrayAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrayAlgorithm.cpp; sourceTree = "<group>"; };
+		023D6DFD22978A1400F08684 /* treeAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = treeAlgorithm.cpp; sourceTree = "<group>"; };
+		023D6DFE22978A2700F08684 /* stringAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stringAlgorithm.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -43,6 +47,10 @@
 			isa = PBXGroup;
 			children = (
 				023D6DEC229783C400F08684 /* basics.cpp */,
+				023D6DFB229789EC00F08684 /* linkAlgorithm.cpp */,
+				023D6DFC229789FD00F08684 /* arrayAlgorithm.cpp */,
+				023D6DFD22978A1400F08684 /* treeAlgorithm.cpp */,
+				023D6DFE22978A2700F08684 /* stringAlgorithm.cpp */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -50,16 +58,16 @@
 		023D6DED229783C400F08684 /* dataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				023D6DEE229783C400F08684 /* 链栈.cpp */,
-				023D6DEF229783C400F08684 /* 静态链表.cpp */,
-				023D6DF0229783C400F08684 /* 顺序存储结构的线性表.cpp */,
-				023D6DF1229783C400F08684 /* 链队列.cpp */,
-				023D6DF2229783C400F08684 /* 树.cpp */,
-				023D6DF3229783C400F08684 /* 两栈共享空间.cpp */,
-				023D6DF4229783C400F08684 /* 顺序存储的栈.cpp */,
-				023D6DF5229783C400F08684 /* 串.cpp */,
-				023D6DF6229783C400F08684 /* 循环队列.cpp */,
-				023D6DF7229783C400F08684 /* 单链表.cpp */,
+				023D6DF0229783C400F08684 /* list.cpp */,
+				023D6DF7229783C400F08684 /* singleLink.cpp */,
+				023D6DEF229783C400F08684 /* staticLink.cpp */,
+				023D6DF1229783C400F08684 /* queue.cpp */,
+				023D6DF6229783C400F08684 /* loopQueue.cpp */,
+				023D6DF4229783C400F08684 /* stack.cpp */,
+				023D6DEE229783C400F08684 /* linkStack.cpp */,
+				023D6DF3229783C400F08684 /* stackSpaceSharing.cpp */,
+				023D6DF2229783C400F08684 /* tree.cpp */,
+				023D6DF5229783C400F08684 /* string.cpp */,
 			);
 			path = dataStructure;
 			sourceTree = "<group>";

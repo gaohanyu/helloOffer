@@ -1,10 +1,12 @@
 //
-//  串.cpp
+//  string.cpp
 //  helloworld
 //
 //  Created by 高翰宇 on 16/10/12.
 //  Copyright © 2016年 高翰宇. All rights reserved.
 //
+
+/*串*/
 
 #include <stdio.h>
 #include <iostream>

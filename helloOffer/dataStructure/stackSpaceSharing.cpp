@@ -1,11 +1,13 @@
 //
-//  两栈共享空间.cpp
+//  stackSpaceSharing.cpp
 //  helloworld
 //
 //  Created by 高翰宇 on 16/10/11.
 //  Copyright © 2016年 高翰宇. All rights reserved.
 //
 
+
+/*两栈共享空间*/
 
 /*数组有两个端点，两个栈有两个栈底，让一个栈的栈底为数组的始端，即下标为0处，另一个栈为数组的末端，即下标为数组长度n-1处。
  这样，两个栈如果增加元素，就是两端点向中间延伸。*/

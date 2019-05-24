@@ -1,5 +1,5 @@
 //
-//  静态链表.cpp
+//  staticLink.cpp
 //  helloworld
 //
 //  Created by 高翰宇 on 16/10/10.

@@ -1,10 +1,12 @@
 //
-//  顺序存储的栈.cpp
+//  stack.cpp
 //  helloworld
 //
 //  Created by 高翰宇 on 16/10/11.
 //  Copyright © 2016年 高翰宇. All rights reserved.
 //
+
+/*栈*/
 
 #include <stdio.h>
 #define OK 1

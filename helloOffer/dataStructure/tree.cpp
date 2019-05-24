@@ -1,5 +1,5 @@
 //
-//  树.cpp
+//  tree.cpp
 //  helloworld
 //
 //  Created by 高翰宇 on 16/10/18.
@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-
+/*树*/
 /*树的双亲表示法 结点结构定义*/
 #define MAX_TREE_SIZE 100
 typedef int TElemType;  /*树结点的数据类型，目前暂定为整型*/
