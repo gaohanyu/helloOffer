@@ -151,5 +151,30 @@ void postOOderTraversal (bintree t) {
     }
 }
 
-/*层次遍历
-  每一层从左到右打印，把元素存储在一个队列中*/
+/*层序遍历
+  每一层从左到右打印，把元素存储在一个队列中。
+    1.先把根节点加入队列。
+    2.如果队列不空，就进入循环，把队首元素输出。
+    3.若左子树不为空，加入队列。
+    4.若右子树不空，加入队列*/
+
+void levelOrderTraversal (bintree t) {
+    if (!t) {
+        cout << "empty tree !" << endl;
+        return;
+    }
+    Queue queue;
+    BinNode node;
+    queue.add(node);
+    while (!queue.isEmpty()) {
+        queue.remove(node);
+        cout << node->data << endl;
+        
+        if (node->leftChild) {
+            queue.add(node->leftChild);
+        }
+        if (node->rightChild) {
+            queue.add(node->rightChild);
+        }
+    }
+}
