@@ -1,6 +1,6 @@
 //
-//  basics.cpp
-//  helloworld
+//  sort
+//  helloOffer
 //
 //  Created by 高翰宇 on 16/10/8.
 //  Copyright © 2016年 高翰宇. All rights reserved.
@@ -35,26 +35,42 @@ void bubble_sort(int a[],int n){  //n是数组的长度
 
 //快速排序
 void Qsort(int a[],int low,int high){
-    if (low  > high) {
+    if (low  >= high) {
         return;
     }
-    int first = low;
-    int last = high;
-    int key = a[first];
-    while (first < last) {
-        while (first < last && a[last] >= key) {
-            last--;
+    int i = low;
+    int j = high;
+    int key = a[low];
+    //在两个指针相遇之前，一直进入循环
+    while (i < j) {
+        while (i < j && a[j] >= key) {
+            j--;
+            if (j == low) {
+                break;
+            }
         }
-        a[first] = a[last];
-        while (first < last && a[first] <= key) {
-            first++;
+        while (i < j && a[i] <= key) {
+            i++;
+            if (i == high) {
+                break;
+            }
         }
-        a[last] = a[first];
+        if (i > = j) {
+            break;
+        }
+        /*交换i,j对应的值*/
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        
     }
+    /*中枢值与j对应值交换*/
+    int temp = a[low];
+    a[low] = a[j];
+    a[j] = temp;
     
-    a[first] = key;
-    Qsort(a, low, first-1);
-    Qsort(a, first+1, high);
+    Qsort(arr, low, j - 1);
+    Qsort(arr, j + 1, high);
 }
 
 //二分查找 要求待查表为有序表

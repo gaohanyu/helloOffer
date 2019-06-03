@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		023D6DEC229783C400F08684 /* basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = basics.cpp; sourceTree = "<group>"; };
+		023D6DEC229783C400F08684 /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
 		023D6DEE229783C400F08684 /* linkStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linkStack.cpp; sourceTree = "<group>"; };
 		023D6DEF229783C400F08684 /* staticLink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticLink.cpp; sourceTree = "<group>"; };
 		023D6DF0229783C400F08684 /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		023D6DEB229783C400F08684 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				023D6DEC229783C400F08684 /* basics.cpp */,
+				023D6DEC229783C400F08684 /* sort.cpp */,
 				023D6DFB229789EC00F08684 /* linkAlgorithm.cpp */,
 				023D6DFC229789FD00F08684 /* arrayAlgorithm.cpp */,
 				023D6DFD22978A1400F08684 /* treeAlgorithm.cpp */,
